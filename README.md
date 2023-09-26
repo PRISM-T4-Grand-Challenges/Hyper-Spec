@@ -115,6 +115,27 @@ How HyperSpec Works
 3. _HyperSpec_ finally clusters each spectra bucket using DBSCAN algorithm. Thanks HD computing's lightweight computation and powerful data presentation capability, _HyperSpec_ achieves significant speedup over other spectra clustering tools. Most of spectra datasets can be clustered within a few minutes.
 
 
+Benchmark Tools
+------------------------------------------------------
+
+For our SoA benchmarking, the following tools were used:
+- [msCRUSH](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00448)
+- [falcon](https://pubmed.ncbi.nlm.nih.gov/34169593/) 
+- [GLEAMS](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9189069/)
+- [MaRaCluster](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00749)
+  
+Datasets
+------------------------------------------------------
+
+| Dataset       | Sample Type  | PRIDE ID                                                      | No. of Spectra | Size   |
+|---------------|--------------|---------------------------------------------------------------|----------------|--------|
+| Data set-A    | kidney cell  | [PXD001468](https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001468) | 1.1M           | 5.6 GB |
+| Data set-B    | kidney cell  | [PXD001197](https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001197) | 1.1M           | 25 GB  |
+| Data set-C    | HeLa proteins| [PXD003258](https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD003258) | 4.1M           | 54 GB  |
+| Data set-D    | HEK293 cell  | [PXD001511](https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001511) | 4.2M           | 87 GB  |
+| Data set-E    | human proteome| [PXD000561](https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD000561)| 21.1M          | 131 GB |
+
+
 Publication
 ------------------------------------------------------
 1. Xu, Weihong, Jaeyoung Kang, Wout Bittremieux, Niema Moshiri, and Tajana Rosing. "HyperSpec: Ultrafast Mass Spectra Clustering in Hyperdimensional Space." [Journal of Proteome Research (2023)](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.2c00612).
